@@ -1,3 +1,5 @@
+'use client'
+
 export default function TestImages() {
   const images = [
     '/dinasour-tale.jpg',
