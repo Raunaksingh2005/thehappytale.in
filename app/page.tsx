@@ -11,7 +11,7 @@ const TALES = [
     name: 'Dinosaur Tale',
     emoji: '🦖',
     tagline: 'Roars, fossils, explorers and prehistoric adventures.',
-    img: '/dinasour tale.jpg',
+    img: '/dinasour-tale.jpg',
     color: 'linear-gradient(135deg,#E87563,#F5C95C)',
     look: ['Jungle-inspired decor', 'Giant dinosaur props', 'Fossil-inspired details', 'Dino eggs', 'Personalised name signage', 'Themed cake table'],
     adventure: ['Fossil Hunt', 'Dinosaur Egg Hunt', 'Fossil Dig', 'Dinosaur Challenge', 'Dinosaur Movement Games'],
@@ -22,7 +22,7 @@ const TALES = [
     name: 'Space Tale',
     emoji: '🚀',
     tagline: 'Blast off into a celebration beyond the stars.',
-    img: '/space tale.jpg',
+    img: '/space-tale.jpg',
     color: 'linear-gradient(135deg,#AFCBE8,#174A86)',
     look: ['Galaxy decor & starscape', 'Rocket ships & planets', 'Astronaut details', 'Cosmic balloon arches', 'Mission control signage', 'Star-themed cake table'],
     adventure: ['Moon Mission Hunt', 'Build-a-Rocket Activity', 'Star Gazer Challenge', 'Astronaut Training', 'Space Quiz'],
@@ -33,7 +33,7 @@ const TALES = [
     name: 'Fairytale',
     emoji: '🧚',
     tagline: 'Enchanted details, magical moments and a little wonder.',
-    img: '/fairy tale.jpg',
+    img: '/fairy-tale.jpg',
     color: 'linear-gradient(135deg,#DFA3B0,#E9B83F)',
     look: ['Enchanted forest decor', 'Flower walls & fairy lights', 'Princess-themed details', 'Magical archways', 'Personalised story boards', 'Fairytale cake table'],
     adventure: ['Fairy Treasure Hunt', 'Wand Making Workshop', 'Crown Decorating', 'Story Telling Circle', 'Magical Dance'],
@@ -44,7 +44,7 @@ const TALES = [
     name: 'Racing Tale',
     emoji: '🏎️',
     tagline: 'Fast cars, checkered flags and high-energy fun.',
-    img: '/racecar tale.jpg',
+    img: '/racecar-tale.jpg',
     color: 'linear-gradient(135deg,#F5C95C,#E87563)',
     look: ['Checkered flag decor', 'Racing pit stop setup', 'Podium display', 'Tyre & trophy props', 'Custom race numbers', 'Racing cake table'],
     adventure: ['Mini Racing Challenges', 'Pit Stop Relay', 'Checkered Flag Hunt', 'Race Car Building', 'Speed Quiz'],
@@ -55,7 +55,7 @@ const TALES = [
     name: 'Safari Tale',
     emoji: '🦁',
     tagline: 'Wild adventures, curious creatures and jungle discoveries.',
-    img: '/safari tale.jpg',
+    img: '/safari-tale.jpg',
     color: 'linear-gradient(135deg,#E9B83F,#A9BDA7)',
     look: ['Jungle foliage & safari decor', 'Animal props & binoculars', 'Explorer tent setup', 'Animal print details', 'Safari signage', 'Jungle cake table'],
     adventure: ['Animal Safari Hunt', 'Explorer Expedition', 'Animal Matching Game', 'Jungle Relay Race', 'Wildlife Quiz'],
@@ -66,7 +66,7 @@ const TALES = [
     name: 'Science Tale',
     emoji: '🔬',
     tagline: 'Experiments, discoveries and seriously fun science.',
-    img: '/science tale.jpg',
+    img: '/science-tale.jpg',
     color: 'linear-gradient(135deg,#AFCBE8,#A9BDA7)',
     look: ['Lab-inspired decor', 'Test tubes & beakers', 'Discovery station setup', 'Science board displays', 'Professor signage', 'Science cake table'],
     adventure: ['Slime Lab', 'Volcano Experiment', 'Little Scientists Challenge', 'Mystery Substance Test', 'Science Quiz'],
@@ -77,7 +77,7 @@ const TALES = [
     name: 'Art Tale',
     emoji: '🎨',
     tagline: 'Create, colour, explore and make something wonderful.',
-    img: '/art tale.jpg',
+    img: '/art-tale.jpg',
     color: 'linear-gradient(135deg,#DFA3B0,#AFCBE8)',
     look: ['Studio-inspired decor', 'Easels & canvas displays', 'Colour splash details', 'Artist name signage', 'Gallery wall setup', 'Art cake table'],
     adventure: ['Canvas Painting', 'Creative Studio', 'Colour Challenge', 'Art Treasure Hunt', 'Mini Gallery Show'],
@@ -88,7 +88,7 @@ const TALES = [
     name: 'Game Day Tale',
     emoji: '🎮',
     tagline: "Challenges, competition and games they'll talk about afterwards.",
-    img: '/game tale.jpg',
+    img: '/game-tale.jpg',
     color: 'linear-gradient(135deg,#E87563,#174A86)',
     look: ['Gaming-inspired decor', 'Score board displays', 'Champion podium setup', 'Player name details', 'Trophy wall display', 'Gaming cake table'],
     adventure: ['Tournament Challenges', 'Team Competitions', 'Mystery Mission', 'Obstacle Course', 'Champion Quiz'],
@@ -97,16 +97,16 @@ const TALES = [
 ]
 
 const ACTIVITIES = [
-  { name: 'Fossil Hunt', desc: 'Dig, discover and uncover prehistoric surprises.', img: '/fossil hunt.jpg' },
+  { name: 'Fossil Hunt', desc: 'Dig, discover and uncover prehistoric surprises.', img: '/fossil-hunt.jpg' },
   { name: 'Little Scientists', desc: 'Safe, exciting experiments designed for curious minds.', video: '/D041ABD0-DF2C-4D74-ABF8-1FB2D4A58831.MP4' },
-  { name: 'Creative Studio', desc: 'Painting, crafting and hands-on making.', img: '/creative studio.jpg' },
-  { name: 'Treasure Hunt', desc: 'Clues, challenges and a final surprise.', img: '/treasure hunt.jpg' },
-  { name: 'Slime Lab', desc: 'A colourful hands-on activity children can create themselves.', img: '/slime bar.jpg' },
-  { name: 'Character Adventures', desc: 'Meet, play and interact with their favourite characters.', img: '/charchter adventure.jpg' },
-  { name: 'Magic & Interactive Fun', desc: 'Entertainment designed around their age and interests.', img: '/magic and interactive fun.jpg' },
-  { name: 'Mini Racing', desc: 'Challenges, races and team competitions.', img: '/mini racing.jpg' },
-  { name: 'Mystery Challenge', desc: 'Age-appropriate puzzles and missions for older children.', img: '/mystery challenge.jpg' },
-  { name: 'Little Bakers', desc: 'Decorate cupcakes, cookies or mini treats themselves.', img: '/kids cupcake.jpg' },
+  { name: 'Creative Studio', desc: 'Painting, crafting and hands-on making.', img: '/creative-studio.jpg' },
+  { name: 'Treasure Hunt', desc: 'Clues, challenges and a final surprise.', img: '/treasure-hunt.jpg' },
+  { name: 'Slime Lab', desc: 'A colourful hands-on activity children can create themselves.', img: '/slime-bar.jpg' },
+  { name: 'Character Adventures', desc: 'Meet, play and interact with their favourite characters.', img: '/charchter-adventure.jpg' },
+  { name: 'Magic & Interactive Fun', desc: 'Entertainment designed around their age and interests.', img: '/magic-and-interactive-fun.jpg' },
+  { name: 'Mini Racing', desc: 'Challenges, races and team competitions.', img: '/mini-racing.jpg' },
+  { name: 'Mystery Challenge', desc: 'Age-appropriate puzzles and missions for older children.', img: '/mystery-challenge.jpg' },
+  { name: 'Little Bakers', desc: 'Decorate cupcakes, cookies or mini treats themselves.', img: '/kids-cupcake.jpg' },
 ]
 
 const SERVICES = [
@@ -123,16 +123,16 @@ const SERVICES = [
 const GALLERY_ITEMS = [
   { type: 'video', src: '/067815D9-F97B-4D25-B88F-661997C3D847.MP4', tall: true },
   { type: 'image', src: '/theme1.jpg', tall: false },
-  { type: 'image', src: '/dinasour tale.jpg', tall: false },
+  { type: 'image', src: '/dinasour-tale.jpg', tall: false },
   { type: 'video', src: '/162DA336-2F56-478E-A44B-A728F9115FE8.MP4', tall: true },
-  { type: 'image', src: '/art tale.jpg', tall: false },
-  { type: 'image', src: '/fairy tale.jpg', tall: false },
+  { type: 'image', src: '/art-tale.jpg', tall: false },
+  { type: 'image', src: '/fairy-tale.jpg', tall: false },
   { type: 'video', src: '/D041ABD0-DF2C-4D74-ABF8-1FB2D4A58831.MP4', tall: true },
   { type: 'image', src: '/theme2.jpg', tall: false },
-  { type: 'image', src: '/safari tale.jpg', tall: false },
-  { type: 'image', src: '/science tale.jpg', tall: false },
-  { type: 'image', src: '/space tale.jpg', tall: false },
-  { type: 'image', src: '/racecar tale.jpg', tall: false },
+  { type: 'image', src: '/safari-tale.jpg', tall: false },
+  { type: 'image', src: '/science-tale.jpg', tall: false },
+  { type: 'image', src: '/space-tale.jpg', tall: false },
+  { type: 'image', src: '/racecar-tale.jpg', tall: false },
 ]
 
 // ── COMPONENT ──────────────────────────────────────────────────────────────
@@ -598,9 +598,9 @@ export default function Home() {
         <div className="container">
           <div className="notwo-grid">
             <div className="notwo-collage reveal-left">
-              <img className="notwo-img notwo-img-a" src="/fairy tale.jpg" alt="" loading="lazy" />
-              <img className="notwo-img notwo-img-b" src="/art tale.jpg" alt="" loading="lazy" />
-              <img className="notwo-img notwo-img-c" src="/dinasour tale.jpg" alt="" loading="lazy" />
+              <img className="notwo-img notwo-img-a" src="/fairy-tale.jpg" alt="" loading="lazy" />
+              <img className="notwo-img notwo-img-b" src="/art-tale.jpg" alt="" loading="lazy" />
+              <img className="notwo-img notwo-img-c" src="/dinasour-tale.jpg" alt="" loading="lazy" />
             </div>
             <div className="notwo-text reveal-right">
               <p className="section-eyebrow">Every Celebration Is Unique</p>
